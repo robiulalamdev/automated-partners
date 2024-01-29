@@ -54,4 +54,11 @@ export const routes = [
     url: "wallet",
     icon: iWallet,
   },
+  {
+    id: 7,
+    name: "Friends",
+    items: "10",
+    url: "friends",
+    icon: iWallet,
+  },
 ];
