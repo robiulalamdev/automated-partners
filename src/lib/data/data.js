@@ -69,3 +69,11 @@ export const routes = [
     icon: iWallet,
   },
 ];
+
+export const wish_list = [
+  { id: 1, name: "Grocery Shopping", item: "56 item" },
+  { id: 2, name: "Car Shopping", item: "56 item" },
+  { id: 3, name: "House Hold", item: "56 item" },
+  { id: 4, name: "Kids", item: "56 item" },
+  { id: 5, name: "Vacations", item: "56 item" },
+];

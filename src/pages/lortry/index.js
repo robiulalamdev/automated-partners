@@ -20,22 +20,22 @@ const LortryPage = () => {
 
       <div className="max-w-[370px] w-full">
         <div>
-          <span className="text-[#000209] font-bold text-sm font-arial leading-[20px] tracking-[-0.28px] mb-[12px]">
+          <span className="text-[#000209] font-bold text-sm font-arial leading-[20px] tracking-[-0.28px]">
             New Clinet
           </span>
           <input
             type="text"
-            className="w-full h-[48px] border-[1px] border-[#EDEFF1] rounded-[4px] bg-transparent px-[15px] placeholder:text-[#919296] text-sm"
+            className="w-full h-[48px] border-[1px] border-[#EDEFF1] rounded-[4px] bg-transparent mt-3 px-[15px] placeholder:text-[#919296] text-sm"
             placeholder="Full Name"
           />
         </div>
         <div className="mt-[10px]">
-          <span className="text-[#000209] font-bold text-sm font-arial leading-[20px] tracking-[-0.28px] mb-[12px]">
+          <span className="text-[#000209] font-bold text-sm font-arial leading-[20px] tracking-[-0.28px]">
             Address
           </span>
           <input
             type="text"
-            className="w-full h-[48px] border-[1px] border-[#EDEFF1] rounded-[4px] bg-transparent px-[15px] placeholder:text-[#919296] text-sm"
+            className="w-full h-[48px] border-[1px] border-[#EDEFF1] rounded-[4px] bg-transparent mt-3 px-[15px] placeholder:text-[#919296] text-sm"
             placeholder="address.."
           />
         </div>
