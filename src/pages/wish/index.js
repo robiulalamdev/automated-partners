@@ -1,9 +1,11 @@
 import { wish_list } from "@/lib/data/data";
 import { iChecked, iLeftArrow, iUnChecked } from "@/lib/icons/icons";
 import { IconButton } from "@material-tailwind/react";
+import { useRouter } from "next/router";
 import React, { useState } from "react";
 
 const WishPage = () => {
+  const router = useRouter();
   const [selectItems, setSelectItems] = useState([]);
 
   const handleSelect = (newItem) => {
