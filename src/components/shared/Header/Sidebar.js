@@ -10,9 +10,9 @@ const Sidebar = ({ open, setOpen }) => {
       <Drawer
         open={open}
         onClose={() => setOpen(false)}
-        className="!p-0 w-full h-full min-h-screen"
+        className="!p-0 w-full h-full"
       >
-        <div className="bg-primary h-full">
+        <div className="bg-primary h-full w-full">
           <div className="flex justify-end">
             <IconButton
               onClick={() => setOpen(false)}
@@ -26,8 +26,8 @@ const Sidebar = ({ open, setOpen }) => {
           </h1>
           <div className="grid grid-cols-1 mt-[19px] px-[20px] font-inter">
             {routes.map((route, index) => (
-              <Link href={`/${route.url}`} key={index}>
-                <Button className="rounded-none bg-transparent text-left text-current normal-case text-white flex items-center justify-between p-0 h-[60px] border-t border-[#FFFFFF33] hover:shadow-none shadow-none">
+              <Link href={`/${route.url}`} key={index} className="w-full">
+                <Button className="rounded-none bg-transparent text-left text-current normal-case text-white flex items-center justify-between p-0 h-[60px] w-full border-t border-[#FFFFFF33] hover:shadow-none shadow-none">
                   <div className="flex items-center gap-[14px]">
                     <div>{route.icon}</div>
                     <div>
